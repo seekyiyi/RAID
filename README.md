@@ -4,7 +4,7 @@
 RAID 有多種建置方式，依照最終設定的不同，有著不一樣的特性。
 
 ## 磁碟陣列比較表
-[RAID](http://7.blog.xuite.net/7/c/f/f/235965372/blog_3098629/txt/189424118/0.jpg)
+![RAID](http://7.blog.xuite.net/7/c/f/f/235965372/blog_3098629/txt/189424118/0.jpg)
 
 
 # RAID 0 （區塊延展）
@@ -30,8 +30,7 @@ RAID 0 利用兩個或多個硬碟共同運作，發揮最大的儲存效能的�
 缺點：資料安全性較低，同組陣列中任一硬碟發生問題就會造成資料遺失。
 硬碟數量：最少 2 個。
 
-http://www.intel.com/content/dam/support/us/en/images/chipsets/imsm/sb/img/raid2.jpg
-
+![RAID](http://www.intel.com/content/dam/support/us/en/images/chipsets/imsm/sb/img/raid2.jpg)
 [不妨把 RAID 0 想成 0% 的硬碟空間是重複的。]
 
 # RAID 1 （鏡射）
@@ -105,7 +104,7 @@ JBOD並不是RAID的等級。由於並沒有規範，市場上有兩類主流的
 1. 使用單獨的連結埠如SATA、USB或1394同時控制多個各別獨立的硬碟，使用這種模式通常是較高階的裝置，還具備有RAID的功能，不需要依靠JBOD達到合併邏輯磁區的目的。
 2. 只是將多個硬碟空間合併成一個大的邏輯硬碟，沒有錯誤備援機制。
 
-[RAID](https://zh.wikipedia.org/wiki/File:JBOD.svg)
+![RAID](https://zh.wikipedia.org/wiki/File:JBOD.svg)
 
 資料的存放機制是由第一顆硬碟開始依序往後存放，即作業系統看到的是一個大硬碟（由許多小硬碟組成的）。但如果硬碟損毀，則該顆硬碟上的所有資料將無法救回。
 
