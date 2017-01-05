@@ -104,7 +104,7 @@ JBOD並不是RAID的等級。由於並沒有規範，市場上有兩類主流的
 1. 使用單獨的連結埠如SATA、USB或1394同時控制多個各別獨立的硬碟，使用這種模式通常是較高階的裝置，還具備有RAID的功能，不需要依靠JBOD達到合併邏輯磁區的目的。
 2. 只是將多個硬碟空間合併成一個大的邏輯硬碟，沒有錯誤備援機制。
 
-![RAID](https://zh.wikipedia.org/wiki/File:JBOD.svg)
+![RAID](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/JBOD.svg/750px-JBOD.svg.png)
 
 資料的存放機制是由第一顆硬碟開始依序往後存放，即作業系統看到的是一個大硬碟（由許多小硬碟組成的）。但如果硬碟損毀，則該顆硬碟上的所有資料將無法救回。
 
